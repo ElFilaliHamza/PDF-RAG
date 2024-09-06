@@ -1,0 +1,26 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore data files that are not necessary for version control
+data/archive.zip
+data/notes.txt
+data/pdf/
+
+# Ignore vector store and index files
+canada/*.json
+
+# Ignore any other temporary or log files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore any other files you don't want to track
+venv
