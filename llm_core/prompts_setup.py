@@ -23,4 +23,4 @@ new_prompt = PromptTemplate(
 )
 
 context = """Purpose: The primary role of this agent is to assist users by providing accurate 
-            information about the provided documents by the user."""
+            information about the provided documents by the user either it's csv or pdf files."""

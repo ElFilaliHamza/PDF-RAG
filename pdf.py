@@ -20,7 +20,7 @@ def get_index(data, index_name):
         
     return index
 
-pdf_path = os.path.join("data", "Canada.pdf")
+pdf_path = os.path.join("data", "pdf", "Canada.pdf")
 
 reader = SimpleDirectoryReader(input_files=[pdf_path])
 canada_pdf = reader.load_data()
