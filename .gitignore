@@ -24,3 +24,6 @@ Thumbs.db
 
 # Ignore any other files you don't want to track
 venv
+
+# Ignore data files 
+data/
